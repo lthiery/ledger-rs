@@ -27,3 +27,4 @@ nix = "0.13.0"
 [dependencies.hidapi]
 version = "=0.5.2"
 default-features = false
+features=["linux-shared-hidraw"]
